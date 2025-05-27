@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+count = 0
+x = abs(num)
+while x:
+    x //= 10
+    count += 1
+print("Digits:", count)
