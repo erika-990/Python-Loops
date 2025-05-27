@@ -1,0 +1,5 @@
+while True:
+    s = input("Enter string: ")
+    if "#" in s:
+        break
+    print(s)
