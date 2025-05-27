@@ -1,0 +1,6 @@
+lst = [3, 7, 2, 9, 5]
+max_val = lst[0]
+for el in lst:
+    if el > max_val:
+        max_val = el
+print(max_val)
