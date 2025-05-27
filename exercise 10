@@ -1,0 +1,5 @@
+st = [10, 150, 20, 200]
+for el in lst:
+    if el > 100:
+        print("First >100:", el)
+        break
