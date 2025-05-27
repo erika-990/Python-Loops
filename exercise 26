@@ -1,0 +1,6 @@
+lst = [1,2,2,3,3,3,4]
+unique = []
+for el in lst:
+    if el not in unique:
+        unique.append(el)
+print(unique)
