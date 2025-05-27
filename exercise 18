@@ -1,0 +1,6 @@
+while True:
+    n = int(input("Enter positive number: "))
+    if n < 0:
+        continue
+    print("You entered:", n)
+    break
