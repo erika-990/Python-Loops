@@ -1,0 +1,5 @@
+while True:
+    word = input("Enter word ('stop' to quit): ")
+    if word == "stop":
+        break
+    print("You entered:", word)
