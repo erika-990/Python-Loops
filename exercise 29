@@ -1,0 +1,10 @@
+matrix = [[1,-2,3],[4,5,-6],[7,8,9]]
+found = False
+for i, row in enumerate(matrix):
+    for j, el in enumerate(row):
+        if el < 0:
+            print("First negative at:", i, j)
+            found = True
+            break
+    if found:
+        break
