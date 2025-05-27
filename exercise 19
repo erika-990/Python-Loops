@@ -1,0 +1,5 @@
+ = 5
+while i >= 1:
+    print(i, "(wait 1s)")
+    # time.sleep(1)
+    i -= 1
