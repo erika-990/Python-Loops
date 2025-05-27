@@ -1,0 +1,4 @@
+names = ["ana", "marko", "ivo", "eva"]
+for n in names:
+    if n.startswith("a"):
+        print(n)
